@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+
 import homeView from '../components/homeView'
 
 
@@ -6,7 +7,7 @@ const routes = [
         {
             path :'/',
             name : 'Homepage',
-            components : homeView
+            component : homeView
         }
 ]
 
@@ -17,7 +18,7 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
     console.log(to);
-    document.title = `${to.name} - ${process.env.VUE_APP_TITLE} `
+    document.title = `${to.name} - ${process.env.VUE_APP_TITLE}`
     next()
  })
 
