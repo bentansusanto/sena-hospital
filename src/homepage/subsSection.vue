@@ -86,6 +86,15 @@
         .subs{
             margin-top: 50px;
         }
+        form{
+            width: 65%;
+            height: 60px;
+            padding: 10px 10px;
+        }
+        .btn{
+            width: 120px;
+            height: 40px;
+        }
     }
     /* Medium Desktop */
     @media(min-width: 1025px) and (max-width: 1199px){
@@ -98,6 +107,15 @@
         .subscribe img{
             width: 100%;
             margin-top: 50px;
+        }
+        form{
+            width: 80%;
+            height: 60px;
+            padding: 10px 10px;
+        }
+        .btn{
+            width: 120px;
+            height: 40px;
         }
     }
     /* Desktop */
@@ -112,6 +130,15 @@
             width: 100%;
             margin-top: 50px;
         }
+        form{
+            width: 80%;
+            height: 60px;
+            padding: 10px 10px;
+        }
+        .btn{
+            width: 120px;
+            height: 40px;
+        }
     }
     /* Tablet */
     @media(min-width: 768px) and (max-width: 991px){
@@ -123,7 +150,16 @@
         }
         .subscribe img{
             width: 70%;
-            margin-top: 50px;
+            margin-top: 80px;
+        }
+        form{
+            width: 60%;
+            height: 60px;
+            padding: 10px 10px;
+        }
+        .btn{
+            width: 120px;
+            height: 40px;
         }
     }
     /* Handphone */
@@ -136,6 +172,15 @@
         }
         .subscribe img{
             margin-top: 50px;
+        }
+        form{
+            width: 100%;
+            height: 60px;
+            padding: 10px 10px;
+        }
+        .btn{
+            width: 120px;
+            height: 40px;
         }
     }
 </style>
