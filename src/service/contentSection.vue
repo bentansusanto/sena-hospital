@@ -10,6 +10,7 @@
                     <p>{{item.content}}</p>
                 </div>
             </div>
+            <button class="btn btn-primary">See more</button>
         </div>
     </div>
 </template>
@@ -38,14 +39,31 @@
         justify-content: center;
     }
     .service1{
-        border: 3px solid blue;
+        background-color: #ffff;
         border-radius: 10px;
         padding: 25px;
+        transition: all .3s ease-out;
+    }
+    .service1:hover{
+        box-shadow:0px 15px 30px rgba(67, 151, 210, 0.3);
     }
     .service1 h4{
         font-weight: 600;
         font-size: 1.2rem;
         padding-top: 15px;
+    }
+    .btn{
+        background-color: #4397D2;
+        border: none;
+        border-radius: 50px;
+        padding: 8px 16px; 
+        transition: all .2s ease-out; 
+        margin-top: 50px;
+    }
+    .btn:hover{
+        background-color: #4397D2;
+        border: none;
+        box-shadow:0px 15px 30px rgba(67, 151, 210, 0.3);
     }
     /* Responsive */
         /* Medium Desktop */
