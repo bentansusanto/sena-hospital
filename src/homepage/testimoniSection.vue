@@ -43,6 +43,9 @@
         background-color: #ffff;
         box-shadow:0px 15px 30px rgba(67, 151, 210, 0.3);
     }
+    .testi{
+        align-items: center;
+    }
     .testi1 h4{
         font-size: 1.3rem;
     }
@@ -66,7 +69,6 @@
         .testimoni1{
             margin: 15px 15px;
             width: 30%;
-
         }
         .testi1{
             margin-left: 20px;
@@ -89,7 +91,6 @@
         .testimoni1{
             margin: 15px auto;
             width: 31%;
-
         }
         .testi1{
             margin-left: 20px;
@@ -112,7 +113,6 @@
         .testimoni1{
             margin: 10px auto;
             width: 32%;
-
         }
         .testi1{
             margin-left: 20px;
@@ -134,7 +134,6 @@
         .testimoni1{
             margin: 15px auto;
             width: 55%;
-
         }
         .testi1{
             margin-left: 20px;

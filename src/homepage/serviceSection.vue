@@ -36,7 +36,7 @@
     .service1{
         background-color: #ffff;
         border-radius: 10px;
-        box-shadow:0px 15px 30px rgba(67, 151, 210, 0.3);
+        box-shadow:0px 15px 30px rgba(67, 151, 210, 0.2);
     }
     .service1 h4{
         padding-top: 20px;

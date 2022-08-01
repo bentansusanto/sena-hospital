@@ -10,10 +10,10 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <router-link to="/" class="nav-link">Home</router-link>
-                <a class="nav-link" href="#">About</a>
-                <a class="nav-link" href="#">Service</a>
-                <a class="nav-link" href="#">Our Doctor</a>
-                <a class="nav-link" href="#">Contact Us</a>
+                <router-link to="/about" class="nav-link">About</router-link>
+                <router-link to="/service" class="nav-link">Service</router-link>
+                <router-link to="/" class="nav-link">Our Doctor</router-link>
+                <router-link to="/" class="nav-link">Contact Us</router-link>
             </div>
             <div class="log-inout">
                 <a href="#" class="signin">Login</a>

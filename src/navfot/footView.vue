@@ -1,14 +1,14 @@
 <template>
      <div class="footers">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4">
+            <div class="row footers1">
+                <div class="col-12 col-md-4 logo">
                     <img :src="logo" alt="">
                 </div>
                 <div class="col-12 col-md-4 footer">
-                    <router-link to="#" class="nav-link">Home</router-link>
-                    <router-link to="#" class="nav-link">About Us</router-link>
-                    <router-link to="#" class="nav-link">Service</router-link>
+                    <router-link to="/" class="nav-link">Home</router-link>
+                    <router-link to="/about" class="nav-link">About</router-link>
+                    <router-link to="service" class="nav-link">Service</router-link>
                     <router-link to="#" class="nav-link">Our Doctors</router-link>
                     <router-link to="#" class="nav-link">Contact Us</router-link>
                 </div>
@@ -52,11 +52,111 @@
     .nav-link{
         font-weight: 500;
     }
+    
     /* Responsive */
-    /* Handphone */
-    @media(min-width: 768px) and (max-width: 991px){
-        .footers{
+    /* Large Desktop */
+    @media(min-width: 1200px){
+       .footers1{
             display: flex;
+            align-items: center;
+            text-align: center;
+       }
+       .logo{
+        margin-left: -50px;
+       }
+       .footer{
+            display: flex;
+            font-size: .9rem;
+            margin-left: 30px;
+            width: 40%;
+        }
+        .nav-link{
+            margin-left: 25px;
+        }
+        .social{
+            margin-left: -80px;
+        }
+        .social img{
+            margin-left: 10px;
+        }
+        footer{
+            margin-top: 50px;
+            text-align: center;
+        }   
+    
+    }
+   /* Medium Desktop */
+    @media(min-width: 1025px) and (max-width: 1199px){
+       .footers1{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-left: 25px;
+       }
+       .logo{
+        margin-left: -50px;
+       }
+       .footer{
+            display: flex;
+            width: 45%;
+            margin-left: -70px;
+            font-size: .9rem;
+        }
+        .nav-link{
+            margin-left: 20px;
+        }
+        .social{
+            margin-left:10px;
+        }
+        footer{
+            margin-top: 50px;
+            text-align: center;
+        }
+    }
+    /* Desktop */
+    @media(min-width: 992px) and (max-width: 1024px){
+       .footers1{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-left: 25px;
+       }
+       .logo{
+        margin-left: -50px;
+       }
+       .footer{
+            display: flex;
+            width: 45%;
+            margin-left: -70px;
+            font-size: .9rem;
+        }
+        .nav-link{
+            margin-left: 20px;
+        }
+        .social{
+            margin-left:10px;
+        }
+        footer{
+            margin-top: 50px;
+            text-align: center;
+        }
+        
+    
+    }
+    /* Tablet */
+    @media(min-width: 768px) and (max-width: 991px){
+        .nav-link{
+            padding-top: 10px;
+        }
+        .social{
+            margin-left: -10px;
+        }
+        .social img{
+            margin-left: 10px;
+        }
+        footer{
+            margin-top: 50px;
+            text-align: center;
         }
     }
     /* Handphone */

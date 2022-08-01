@@ -41,7 +41,7 @@
     }
     form{
         background-color: #ffff;
-        box-shadow:0px 15px 30px rgba(67, 151, 210, 0.3);
+        box-shadow:0px 15px 30px rgba(67, 151, 210, 0.2);
         border-radius: 50px;
         padding: 15px 15px;
         width: 75%;
