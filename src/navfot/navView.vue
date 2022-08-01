@@ -13,7 +13,7 @@
                 <router-link to="/about" class="nav-link">About</router-link>
                 <router-link to="/service" class="nav-link">Service</router-link>
                 <router-link to="/our-doctor" class="nav-link">Our Doctor</router-link>
-                <router-link to="/" class="nav-link">Contact Us</router-link>
+                <router-link to="/contact" class="nav-link">Contact Us</router-link>
             </div>
             <div class="log-inout">
                 <a href="#" class="signin">Login</a>

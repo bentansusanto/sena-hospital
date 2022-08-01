@@ -59,7 +59,7 @@
     .btn:hover{
         background-color: #4397D2;
         border: none;
-        box-shadow:0px 15px 30px rgba(67, 151, 210, 0.3);
+        box-shadow:0px 15px 30px rgba(67, 151, 210, 0.2);
     }
     .rating1 h4{
         font-weight: 600;

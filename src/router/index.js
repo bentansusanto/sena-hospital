@@ -4,7 +4,7 @@ import homeView from '../components/homeView'
 import aboutView from '../components/aboutView'
 import serviceView from '../components/serviceView'
 import doctorView from '../components/doctorView'
-
+import contactView from '../components/contactView'
 
 const routes = [
         {
@@ -26,6 +26,11 @@ const routes = [
             path :'/our-doctor',
             name : 'Our Doctor',
             component : doctorView
+        },
+        {
+            path :'/contact',
+            name : 'Contact Us',
+            component : contactView
         },
 ]
 

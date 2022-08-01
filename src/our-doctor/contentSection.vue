@@ -21,6 +21,7 @@
                     </a>
                 </div>
             </div>
+            <button class="btn btn-primary"> See more</button>
         </div>
     </div>
 </template>
@@ -59,7 +60,7 @@
         }
         .doctor1:hover{
             background-color: #ffff;
-            box-shadow:0px 15px 30px rgba(67, 151, 210, 0.3);
+            box-shadow:0px 15px 30px rgba(67, 151, 210, 0.2);
         }
         .doctor1 p{
             font-size: 1rem;
@@ -92,6 +93,13 @@
         .btn p{
             font-weight: 500;
             font-size: 1rem;
+        }
+        button {
+            margin-top: 50px;
+            padding: 8px 16px;
+        }
+        button:hover{
+            box-shadow:0px 15px 30px rgba(67, 151, 210, 0.2);
         }
     /* Responsive */
     /* Large Desktop */
