@@ -9,7 +9,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <router-link to=" " class="nav-link">Home</router-link>
+                <router-link to="/" class="nav-link">Home</router-link>
                 <router-link to="about" class="nav-link">About</router-link>
                 <router-link to="service" class="nav-link">Service</router-link>
                 <router-link to="our-doctor" class="nav-link">Our Doctor</router-link>

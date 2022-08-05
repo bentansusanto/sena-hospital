@@ -17,7 +17,7 @@ const routes = [
             component : userView,
             children : [
                 {
-                    path :' ',
+                    path :'/',
                     name : 'Homepage',
                     component : homeView
                 },
