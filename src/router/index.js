@@ -44,16 +44,16 @@ const routes = [
             ]
         },
         {
-            path : '/auth/',
+            path : '/auth',
             component : AuthView,
             children : [
                 {
-                    path : 'login',
+                    path : '/login',
                     name : 'Login',
                     component : loginView,
                 },
                 {
-                    path : 'register',
+                    path : '/register',
                     name : 'Register',
                     component : regisView,
                 },

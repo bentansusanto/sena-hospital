@@ -16,8 +16,8 @@
                 <router-link to="contact" class="nav-link">Contact Us</router-link>
             </div>
             <div class="log-inout">
-                <a href="login" class="signin">Login</a>
-                <a href="register" class="signup btn btn-primary">Register</a>
+                <a href="/login" class="signin">Login</a>
+                <a href="/register" class="signup btn btn-primary">Register</a>
             </div>
             </div>
         </div>
