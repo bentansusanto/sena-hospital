@@ -44,7 +44,7 @@ const routes = [
             ]
         },
         {
-            path : '/',
+            path : '/auth/',
             component : AuthView,
             children : [
                 {
