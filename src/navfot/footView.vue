@@ -6,11 +6,11 @@
                     <img :src="logo" alt="">
                 </div>
                 <div class="col-12 col-md-4 footer">
-                    <router-link to="/" class="nav-link">Home</router-link>
-                    <router-link to="/about" class="nav-link">About</router-link>
-                    <router-link to="/service" class="nav-link">Service</router-link>
-                    <router-link to="/our-doctor" class="nav-link">Our Doctors</router-link>
-                    <router-link to="/contact" class="nav-link">Contact Us</router-link>
+                    <router-link to="" class="nav-link">Home</router-link>
+                    <router-link to="about" class="nav-link">About</router-link>
+                    <router-link to="service" class="nav-link">Service</router-link>
+                    <router-link to="our-doctor" class="nav-link">Our Doctors</router-link>
+                    <router-link to="contact" class="nav-link">Contact Us</router-link>
                 </div>
                 <div class="col-12 col-md-4 social">
                     <a href="">

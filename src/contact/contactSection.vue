@@ -43,6 +43,11 @@
         background-color: #4397D2;
         padding: 16px auto;
         font-weight: 500;
+        border: none;
+    }
+    .btn:hover{
+        border: none;
+        background-color: #4397D2;
     }
     /* Responsive */
     /* Large Desktop */
